@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Prac100 {
 
 	public static void main(String[] args) {
-		/*
+		/* 커밋
 		 * 갈수있는곳 : 0  / 벽 : 1 /  먹이: 2
 		 * 오른쪽으로 움직이다 벽을만나면 아래쪽으로
 		 * 지나간길 = 9 
