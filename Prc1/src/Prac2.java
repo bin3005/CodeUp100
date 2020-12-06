@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Prac2 {
 
 	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
 		//2번 
 //		System.out.println("Hello World");
 		
@@ -89,8 +90,108 @@ public class Prac2 {
 //		System.out.println(in.nextLine());
 		
 		//20번
-		Scanner in = new Scanner(System.in);
-		System.out.println(in.nextLine());
+//		Scanner in = new Scanner(System.in);
+//		System.out.println(in.nextLine());
+		
+		//21번
+//		String s;
+//		s = in.nextLine();
+//		System.out.println(s.split("\\.")[0]);
+//		System.out.println(s.split("\\.")[1]);
+		
+		//22번
+//		String s;
+//		s = in.nextLine();
+//		for(int i = 0; i < s.length() ; i++) {
+//			System.out.print("\'" + s.substring(i, i+1) + "\'\n");
+//		}
+		
+		//23번
+//		int num;
+//		
+//		while(true) {
+//			num = in.nextInt();
+//			if( num >= 10000 && num <= 99999) {
+//				break;
+//			}else {
+//				System.out.println("조건에 맞지 않는 숫자");
+//			}
+//			
+//		}
+//		
+//		int cnt = 10000;
+//		for(int i = 0 ; i < 5 ; i ++) {
+//			System.out.println("[" + (num/cnt)*cnt  + "]");
+//			num%= cnt;
+//			cnt /= 10;
+//		}
+		
+		//24번
+//		String s = in.nextLine();
+//		System.out.println(s.split(":")[1]);
+		
+		//25번
+//		String s = in.nextLine();
+//		String result ="";
+//		
+//		for(int i = s.split("\\.").length - 1 ; i >= 0 ; i--) {
+//			if( i != 0) {
+//				result += s.split("\\.")[i] + "-";
+//			}else {
+//				result += s.split("\\.")[i] ;
+//			}
+//			
+//		}
+//		System.out.println(result);
+		
+		//26번
+//		long n;
+//		n = in.nextLong();
+//		System.out.println(n);
+		
+		//27번
+//		double d;
+//		d = in.nextDouble();
+//	
+//		System.out.printf("%.11f", d);
+		
+		//28번
+//		long d = in.nextLong();
+//		System.out.println(d);
+		
+		//29번
+//		int n = in.nextInt();
+//		System.out.printf("%o", n);
+		
+		//30번
+		
+//		int n = in.nextInt();
+//		System.out.printf("%x", n);
+		
+		//34번
+//		int n = in.nextInt();
+//		System.out.println((char)n);
+		
+		//45번
+//		int n = in.nextInt();
+//		int num = in.nextInt();
+//		System.out.println(n << num);
+		
+		//46번
+//		int num = in.nextInt();
+//		int num1 = in.nextInt();
+//		if( num > num1) {
+//			System.out.println(1);
+//		}else {
+//			System.out.println(0);
+//		}
+		
+		//47번
+//		int a = in.nextInt();
+//		int b= in.nextInt();
+		
+	
+	
 		
 		
 	}
